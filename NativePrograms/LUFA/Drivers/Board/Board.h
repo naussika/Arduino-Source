@@ -1,13 +1,13 @@
 /*
              LUFA Library
-     Copyright (C) Dean Camera, 2020.
+     Copyright (C) Dean Camera, 2021.
 
   dean [at] fourwalledcubicle [dot] com
            www.lufa-lib.org
 */
 
 /*
-  Copyright 2020  Dean Camera (dean [at] fourwalledcubicle [dot] com)
+  Copyright 2021  Dean Camera (dean [at] fourwalledcubicle [dot] com)
 
   Permission to use, copy, modify, distribute, and sell this
   software and its documentation for any purpose is hereby granted
@@ -79,7 +79,8 @@
 			#include "AVR8/BUMBLEB/Board.h"
 		#elif (BOARD == BOARD_EVK527)
 			#include "AVR8/EVK527/Board.h"
-		#elif ((BOARD == BOARD_TEENSY) || (BOARD == BOARD_TEENSY2))
+		#elif ((BOARD == BOARD_TEENSY) || (BOARD == BOARD_TEENSYPP)) || \
+		      ((BOARD == BOARD_TEENSY2) || (BOARD == BOARD_TEENSY2PP))
 			#include "AVR8/TEENSY/Board.h"
 		#elif (BOARD == BOARD_USBTINYMKII)
 			#include "AVR8/USBTINYMKII/Board.h"

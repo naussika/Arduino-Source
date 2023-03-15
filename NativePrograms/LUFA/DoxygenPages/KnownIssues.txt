@@ -10,6 +10,9 @@
   *  \ref Page_FutureChanges for a list of planned changes in future releases.
   *
   *  \section Sec_KnownIssuesXXXXXX Version XXXXXX
+  *   No version information.
+  *
+  *  \section Sec_KnownIssues210130 Version 210130
   *  - AVR8 Architecture
   *    - No known issues.
   *  - UC3 Architecture
